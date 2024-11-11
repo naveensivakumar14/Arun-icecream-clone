@@ -3,7 +3,8 @@
 
 
 import Navbar from './components/Navbar'
-import Herotop from './components/Herotop'
+// import Herotop from './components/Herotop'
+import VerticalSlideHero from './verticalSlideHero'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
      <Navbar/>
-     <Herotop/>
+     <VerticalSlideHero/>
+     
     </>
   )
 }

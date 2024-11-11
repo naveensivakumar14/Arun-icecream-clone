@@ -13,7 +13,7 @@ function Navbar() {
 
     return (
         <>
-            <div className="bg-[#defcff] flex justify-around shadow-md items-center">
+            <div className="bg-white flex justify-around shadow-md items-center">
                 <div className="size-24 flex items-center">
                     <img src={logo} alt="logo" />
                 </div>
