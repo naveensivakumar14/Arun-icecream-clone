@@ -3,8 +3,9 @@
 
 
 import Navbar from './components/Navbar'
-// import Herotop from './components/Herotop'
-import VerticalSlideHero from './verticalSlideHero'
+import Herotop from './components/Herotop'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +13,8 @@ function App() {
   return (
     <>
      <Navbar/>
-     <VerticalSlideHero/>
-     
+     <Herotop/>
+
     </>
   )
 }

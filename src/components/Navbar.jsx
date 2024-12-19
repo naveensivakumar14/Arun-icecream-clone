@@ -18,7 +18,7 @@ function Navbar() {
                     <img src={logo} alt="logo" />
                 </div>
                 <div className="md:flex hidden">
-                    <ul className="flex space-x-4">
+                    <ul className="flex space-x-10">
                         <li className="hover:font-semibold hover:underline">Home</li>
                         <li className="hover:font-semibold hover:underline">About</li>
                         <li className="hover:font-semibold hover:underline">Products</li>
