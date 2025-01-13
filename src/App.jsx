@@ -4,6 +4,7 @@
 
 import Navbar from './components/Navbar'
 import Herotop from './components/Herotop'
+import Slider from './components/banner'
 
 
 
@@ -14,7 +15,7 @@ function App() {
     <>
      <Navbar/>
      <Herotop/>
-
+    <Slider/>
     </>
   )
 }
