@@ -12,7 +12,7 @@ const slides = [
   },
   {
     id: 2,
-    title: "Icons",
+    title: "Icones",
     img: bIcone,
   },
   {
@@ -43,15 +43,14 @@ function Slider() {
     <div className="relative w-full h-44 md:h-[90vh] md:px-2  md:py-6 overflow-hidden rounded-lg shadow-lg">
       {/* Slide Content */}
       <div
-        className="w-full h-full flex flex-col items-center justify-center text-center transition-all duration-500 ease-in-out"
+        className="w-auto h-full flex flex-col items-center justify-center text-center transition-all duration-500 ease-in-out"
         style={{
           backgroundImage: `url(${slides[currentIndex].img})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        {/* Slide Title */}
-        <h2 className="text-white text-2xl md:text-4xl">{slides[currentIndex].title}</h2>
+       
       </div>
     </div>
   );

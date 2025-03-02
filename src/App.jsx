@@ -14,8 +14,9 @@ function App() {
   return (
     <>
      <Navbar/>
+     <Slider/>
      <Herotop/>
-    <Slider/>
+    
     </>
   )
 }
