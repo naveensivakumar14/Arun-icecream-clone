@@ -28,7 +28,7 @@ function Navbar() {
 
                 {/* React Icons */}
                 <div className="md:flex hidden space-x-4">
-                    <IoLogoInstagram size={30} />
+                    <IoLogoInstagram size={30}/>
                     <FaYoutube size={30} className='text-red-500' />
                 </div>
                 <div className="md:hidden flex items-center">
