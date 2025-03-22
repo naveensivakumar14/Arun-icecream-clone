@@ -16,7 +16,7 @@ function App() {
      <Navbar/>
      <Slider/>
      <Herotop/>
-    
+
     </>
   )
 }
