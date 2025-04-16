@@ -5,6 +5,7 @@
 import Navbar from './components/Navbar'
 import Herotop from './components/Herotop'
 import Slider from './components/banner'
+import Arunad from './components/arun_ad'
 
 
 
@@ -16,7 +17,7 @@ function App() {
      <Navbar/>
      <Slider/>
      <Herotop/>
-
+     <Arunad/>
     </>
   )
 }
