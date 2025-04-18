@@ -9,12 +9,12 @@ function Herotop(){
     return(
         <div className="md:h-screen flex flex-col justify-center items-center text-center p-6">
             {/* Section Title */}
-            <h1 className="text-3xl md:text-4xl font-bold text-red-600 mb-4"> Celebrate Your Good Times </h1>
+            <h1 className="text-2xl md:text-4xl font-bold text-red-600 mb-4"> Celebrate Your Good Times </h1>
 
-            <div className="md:flex items-center w-full max-w-6xl">
+            <div className="md:flex items-center w-full  max-w-6xl">
                 {/* Left Section - Text Content */}
                 <div className="p-4 md:w-1/2">
-                    <h2 className="text-2xl py-1 text-red-600 font-bold md:text-left">
+                    <h2 className="md:text-2xl text-xl py-1 text-red-600 font-bold md:text-left">
                     Hey, Welcome
                     </h2>
                     <p className="text-justify md:text-left md:text-lg md:p-0 p-4">
