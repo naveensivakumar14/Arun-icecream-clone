@@ -11,7 +11,14 @@ import FlavorSlider from './components/Flavourslider'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
+
+  const [selectedFlavor, setSelectedFlavor] = useState("Strawberry"); // default
+
+  const handleSelectFlavor = (flavorName) => {
+    setSelectedFlavor(flavorName);
+  };
+
 
   return (
     <>
@@ -20,6 +27,8 @@ function App() {
      <Herotop/>
      <FlavorSlider/>
      <Arunad/>
+
+    
     </>
   )
 }

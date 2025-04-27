@@ -1,13 +1,13 @@
 import React from "react";
 
 const flavors = [
-  { emoji: "🍊", name: "Orange" },
-  { emoji: "🍋", name: "Lemon" },
-  { emoji: "🍈", name: "Melon" },
-  { emoji: "🍑", name: "Peach" },
-  { emoji: "🍍", name: "Pineapple" },
+  { emoji: "🍨", name: "Chocolate" },
+  { emoji: "🍨", name: "Butterscotch" },
+  { emoji: "🍨", name: "Vannila" },
+  { emoji: "🫐", name: "Blackcurrent" },
+  { emoji: "🍫", name: "ChocoBelgion" },
   { emoji: "🍓", name: "Strawberry" },
-  { emoji: "🍒", name: "Cherry" },
+  { emoji: "🍒", name: "Triplefruit" },
 ];
 
 function FlavorSlider() {
