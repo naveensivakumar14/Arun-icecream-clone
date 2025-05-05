@@ -7,7 +7,7 @@ const flavors = [
   { emoji: "🫐", name: "Blackcurrent" },
   { emoji: "🍫", name: "ChocoBelgion" },
   { emoji: "🍓", name: "Strawberry" },
-  { emoji: "🍒", name: "Icones" },
+  { emoji: "🍒", name: "Triplefruit" },
 ];
 
 function FlavorSlider() {
