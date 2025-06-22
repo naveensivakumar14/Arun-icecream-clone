@@ -5,8 +5,8 @@
 import Navbar from './components/Navbar'
 import Herotop from './components/Herotop'
 import Slider from './components/banner'
-import Arunad from './components/arun_ad'
 import FlavorSlider from './components/Flavourslider'
+import Arunad from './components/arun_ad'
 
 
 
