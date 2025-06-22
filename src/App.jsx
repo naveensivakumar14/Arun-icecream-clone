@@ -7,6 +7,8 @@ import Herotop from './components/Herotop'
 import Slider from './components/banner'
 import FlavorSlider from './components/Flavourslider'
 import Arunad from './components/arun_ad'
+import Footer from './components/footer'
+
 
 
 
@@ -27,6 +29,7 @@ function App() {
      <Herotop/>
      <FlavorSlider/>
      <Arunad/>
+     <Footer/>
 
     
     </>

@@ -22,6 +22,7 @@ function Navbar() {
                         <li className="hover:font-semibold hover:underline">Home</li>
                         <li className="hover:font-semibold hover:underline">About</li>
                         <li className="hover:font-semibold hover:underline">Products</li>
+                         <li className="hover:font-semibold hover:underline">Media</li>
                         <li className="hover:font-semibold hover:underline">Contact</li>
                     </ul>
                 </div>
