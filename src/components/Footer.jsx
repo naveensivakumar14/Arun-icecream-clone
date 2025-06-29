@@ -15,17 +15,17 @@ function Footer() {
 
         {/* Address */}
         <div className="text-center md:text-left ">
-          <h3 className="font-bold text-lg mb-2">Address</h3>
-          <p>Arun Icecreams HQ</p>
-          <p>123 Icecream Street,</p>
-          <p>Chennai, Tamil Nadu - 600001</p>
-          <p>Phone: +91 98765 98675</p>
+          <h3 className="font-bold md:text-lg mb-2">Address</h3>
+          <p className="md:text-md text-sm">Arun Icecreams HQ</p>
+          <p className="md:text-md text-sm">123 Icecream Street,</p>
+          <p  className="md:text-md text-sm">Chennai, Tamil Nadu - 600001</p>
+          <p  className="md:text-md text-sm">Phone: +91 98765 98675</p>
         </div>
 
         {/* Services / Links */}
         <div className="text-center md:text-left">
-          <h3 className="font-bold text-lg mb-2">Our Services</h3>
-          <ul className="space-y-1">
+          <h3 className="font-bold md:text-lg mb-2">Our Services</h3>
+          <ul className="space-y-1 md:text-md text-sm">
             <li>🍦 Icecream Catering</li>
             <li>🎉 Party Packs</li>
             <li>🚚 Online Delivery</li>

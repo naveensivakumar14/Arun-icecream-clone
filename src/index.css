@@ -66,9 +66,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+ 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/*Flavours slider animations*/
 
 @layer utilities {
   @keyframes scroll {
@@ -84,3 +88,4 @@ button:focus-visible {
     animation: scroll 20s linear infinite;
   }
 }
+
