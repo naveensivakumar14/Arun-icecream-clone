@@ -3,7 +3,7 @@ import logo from "../assets/images/Logo.png"; // Update path as per your structu
 
 function Footer() {
   return (
-    <footer className="bg-[#FFC1DA] text-gray-700 py-10">
+    <footer className="bg-[#FFC1DA] text-black py-10">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
         
         {/* Logo & Brand */}
@@ -14,12 +14,12 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left ">
           <h3 className="font-bold text-lg mb-2">Address</h3>
           <p>Arun Icecreams HQ</p>
           <p>123 Icecream Street,</p>
           <p>Chennai, Tamil Nadu - 600001</p>
-          <p>Phone: +91 98765 43210</p>
+          <p>Phone: +91 98765 98675</p>
         </div>
 
         {/* Services / Links */}
@@ -36,7 +36,7 @@ function Footer() {
       </div>
 
       {/* Footer Bottom */}
-      <div className="mt-10 text-center text-sm text-gray-500 border-t pt-4">
+      <div className="mt-10 text-center  text-gray-700 border-t pt-4">
         &copy; {new Date().getFullYear()} Arun Icecreams. All rights reserved.
       </div>
     </footer>

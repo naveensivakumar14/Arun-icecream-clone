@@ -29,9 +29,7 @@ function App() {
      <Herotop/>
      <FlavorSlider/>
      <Arunad/>
-     <Footer/>
-
-    
+     <Footer></Footer>
     </>
   )
 }
