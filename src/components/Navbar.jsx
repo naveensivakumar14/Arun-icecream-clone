@@ -19,11 +19,11 @@ function Navbar() {
                 </div>
                 <div className="md:flex hidden">
                     <ul className="flex space-x-10">
-                        <li className="hover:font-semibold ">Home</li>
-                        <li className="hover:font-semibold ">About</li>
-                        <li className="hover:font-semibold ">Products</li>
-                         <li className="hover:font-semibold ">Media</li>
-                        <li className="hover:font-semibold ">Contact</li>
+                        <li className="hover:font-bold hover:text-red-600">Home</li>
+                        <li className="hover:font-bold hover:hover:text-red-600">About</li>
+                        <li className="hover:font-bold hover:hover:text-red-600">Products</li>
+                        <li className="hover:font-bold hover:hover:text-red-600">Media</li>
+                        <li className="hover:font-bold hover:hover:text-red-600">Contact</li>
                     </ul>
                 </div>
 
