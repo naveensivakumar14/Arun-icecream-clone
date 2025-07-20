@@ -3,14 +3,13 @@ import logo from "../assets/images/Logo.png"; // Update path as per your structu
 
 function Footer() {
   return (
-    <footer className="bg-[#FFC1DA] text-black py-10">
+    <footer className="bg-[#DDDDDD] text-black py-10">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
         
         {/* Logo & Brand */}
         <div className="flex flex-col items-center md:items-start">
           <img src={logo} alt="Arun Icecream Logo" className="w-24 mb-4" />
-          <h2 className="text-xl font-bold text-red-500">Arun Icecreams</h2>
-          <p className="text-sm mt-2">Taste the Magic, One Scoop at a Time!</p>
+          <p className="font-semibold text-lg mt-2">Taste the Magic !</p>
         </div>
 
         {/* Address */}
