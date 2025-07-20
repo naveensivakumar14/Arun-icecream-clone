@@ -39,6 +39,8 @@ function Testimonial() {
   return (
     <div className="max-w-xl mx-auto text-center space-y-6 py-10 px-6 md:py-20 rounded-xl transition-all duration-500">
 
+      
+
      <h2 className="md:text-2xl font-bold">Our Every Scoop Has a Story</h2>
       {/* Decorative Quote Icon */}
       <svg xmlns="http://www.w3.org/2000/svg" className="w-8 fill-pink-500 mx-auto" viewBox="0 0 35 30" fill="none">
