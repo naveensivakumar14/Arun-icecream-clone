@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import banner from "../assets/images/profile-banner2.jpg"
+
 // Images
 // Bars
 import ibar1 from "../assets/images/chocobar.jpg";
@@ -56,9 +58,26 @@ const Products = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center  py-6 bg-white">
+    <div className="flex flex-col items-center justify-center bg-white">
+
+      <div className='w-full md:h-[80vh] my-4 flex justify-center items-center'>
+      <div className='w-[600px] hidden md:block'>  
+          <h1 className='text-red-500 text-2xl font-bold'>Hello</h1>
+          <p className='py-4'>
+              Discover a wide range of Arun Ice Creams crafted to delight every taste bud. From crunchy bars and creamy cups to cones and fun kids’ specials, there’s something for everyone. Each product is made with rich flavors and premium quality ingredients. Indulge in the joy of Arun Ice Cream – where happiness meets every scoop!
+          </p>
+      </div>
+      
+      <div className="m-1 md:w-1/2 flex justify-center">
+          <img className="md:w-[600px] w-full rounde  md-lg" src={banner} alt="banner-image" />
+      </div>
+      </div>
+
+      
       {/* Category Buttons */}
-      <div className="flex flex-wrap gap-3 mb-4">
+      <div className="flex flex-wrap gap-3 md:py-6">
+
+
         {categories.map((category) => (
           <button
             key={category}
@@ -85,7 +104,7 @@ const Products = () => {
         </div>
 
         {/* Thumbnails */}
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-2 py-10">
           {imageData[selectedCategory].map((img, index) => (
             <div
               key={index}

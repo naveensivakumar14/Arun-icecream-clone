@@ -8,11 +8,14 @@ import Slider from './components/Banner';
 import FlavorSlider from './components/Flavourslider';
 import Arunad from './components/arun_ad';
 import Testimonial from './components/Testimonial';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 
 import Products from './components/Products';
 import Media from './components/Media';
 import Contact from './components/Contact';
+
+
+
 
 function App() {
   return (
@@ -34,7 +37,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      <Footer />
+      <Footer/>
     </>
   );
 }
