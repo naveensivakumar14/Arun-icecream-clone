@@ -7,7 +7,8 @@ import Herotop from './components/Herotop';
 import Slider from './components/Banner';
 import FlavorSlider from './components/Flavourslider';
 import Arunad from './components/arun_ad';
-import Testimonial from './components/Testimonial';
+import About from './components/About';
+
 import Footer from './components/footer';
 
 import Products from './components/Products';
@@ -29,9 +30,10 @@ function App() {
             <Herotop />
             <FlavorSlider />
             <Arunad />
-            <Testimonial />
+            
           </>
         } />
+         <Route path="/About" element={<About/>} />
         <Route path="/products" element={<Products />} />
         <Route path="/media" element={<Media />} />
         <Route path="/contact" element={<Contact />} />

@@ -58,7 +58,7 @@ const Products = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white">
+    <div className="flex flex-col items-center justify-center bg-slate-100">
 
       <div className='w-full md:h-[80vh] my-4 flex justify-center items-center'>
       <div className='w-[600px] hidden md:block'>  
@@ -74,23 +74,22 @@ const Products = () => {
       </div>
 
       
+     
+      <h1 className='text-3xl font-bold text-red-600 md:py-6'>Categories</h1>
       {/* Category Buttons */}
-      <div className="flex flex-wrap gap-3 md:py-6">
-
-
-        {categories.map((category) => (
-          <button
-            key={category}
-            onClick={() => handleCategoryClick(category)}
-            className={`inline-flex font-medium text-sm rounded-md py-2 px-4 shadow-sm transition-all duration-300 ease-in 
-              ${selectedCategory === category
-                ? 'bg-green-600 text-white'
-                : 'bg-transparent border border-slate-800 text-slate-800 hover:bg-slate-800 hover:text-white'}`}
-          >
-            {category}
-          </button>
-        ))}
-      </div>
+        <div className="flex flex-wrap gap-3 md:py-6">
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => handleCategoryClick(category)}
+              className={`inline-flex font-medium text-sm rounded-md py-2 px-4 shadow-sm transition-all duration-300 ease-in 
+                ${selectedCategory === category
+                  ? 'bg-green-600 text-white'
+                  : 'bg-transparent border border-slate-800 text-slate-800 hover:bg-slate-800 hover:text-white'}`}>
+                  {category}
+            </button>
+          ))}
+        </div>
 
       {/* Image Display Section */}
       <div className="grid gap-4 w-3/4 p-6">
@@ -124,6 +123,7 @@ const Products = () => {
           ))}
         </div>
       </div>
+     
     </div>
   );
 };
