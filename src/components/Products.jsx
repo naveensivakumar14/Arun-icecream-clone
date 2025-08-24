@@ -58,7 +58,7 @@ const Products = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-slate-100">
+    <div className="flex flex-col items-center justify-center">
 
       <div className='w-full md:h-[80vh] my-4 flex justify-center items-center'>
       <div className='w-[600px] hidden md:block'>  
@@ -69,13 +69,13 @@ const Products = () => {
       </div>
       
       <div className="m-1 md:w-1/2 flex justify-center">
-          <img className="md:w-[600px] w-full rounde  md-lg" src={banner} alt="banner-image" />
+          <img className="md:w-[600px] w-full" src={banner} alt="banner-image" />
       </div>
       </div>
 
       
      
-      <h1 className='text-3xl font-bold text-red-600 md:py-6'>Categories</h1>
+      <h1 className='md:text-3xl font-bold text-red-600 py-6'>Categories</h1>
       {/* Category Buttons */}
         <div className="flex flex-wrap gap-3 md:py-6">
           {categories.map((category) => (
