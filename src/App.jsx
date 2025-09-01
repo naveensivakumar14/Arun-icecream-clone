@@ -9,7 +9,7 @@ import FlavorSlider from './components/Flavourslider';
 import Arunad from './components/arun_ad';
 import About from './components/About';
 
-import Footer from './components/footer';
+
 
 import Products from './components/Products';
 import Media from './components/Media';
@@ -39,7 +39,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      <Footer/>
+  
     </>
   );
 }
