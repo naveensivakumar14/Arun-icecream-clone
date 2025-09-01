@@ -36,7 +36,7 @@ function Footer() {
 
       {/* Footer Bottom */}
       <div className="mt-10 text-center  text-gray-700 border-t pt-4">
-        &copy; {new Date().getFullYear()} Arun Icecreams. All rights reserved.
+        &copy; {new Date().getFullYear()} Arun Icecreams.
       </div>
     </footer>
   );
