@@ -8,6 +8,7 @@ import Slider from './components/Banner';
 import FlavorSlider from './components/Flavourslider';
 import Arunad from './components/arun_ad';
 import About from './components/About';
+import Footer from './components/Foot';
 
 
 
@@ -30,7 +31,6 @@ function App() {
             <Herotop />
             <FlavorSlider />
             <Arunad />
-            
           </>
         } />
          <Route path="/About" element={<About/>} />
@@ -38,7 +38,7 @@ function App() {
         <Route path="/media" element={<Media />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
+      <Footer/>
   
     </>
   );
