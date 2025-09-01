@@ -60,13 +60,13 @@ const Products = () => {
       </div>
 
       {/* Product Display */}
-      <div className="grid gap-6 w-3/4 p-6 my-2 md:my-10">
+      <div className="grid gap-6 w-[80%] p-6 my-2 md:my-10">
         {/* Main Product */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+        <div className="flex flex-col  md:flex-row items-center justify-center gap-6">
           {/* Image */}
           <div className="flex justify-center items-center w-1/2">
             <img
-              className="h-auto max-w-full rounded-lg border"
+              className="h-[100px] md:h-auto max-w-full rounded-lg border"
               src={selectedProduct.image}
               alt={selectedProduct.name}
             />
@@ -74,13 +74,13 @@ const Products = () => {
 
           {/* Product Info */}
           <div className="md:w-1/4 flex flex-col justify-center border rounded-md p-3 md:p-6 shadow-sm my-2 md:my-10">
-            <h2 className="text-sm md:text-xl font-bold text-gray-800">
+            <h2 className="text-xs md:text-xl font-semibold md:font-bold text-gray-800">
               {selectedProduct.name}
             </h2>
-            <p className="text-lg text-red-600 font-semibold mt-2">
+            <p className="text-sm md:text-lg text-red-600 font-semibold mt-2">
               ₹{selectedProduct.price}
             </p>
-            <button className="mt-4 w-auto bg-green-600 hover:bg-green-700 md:text-lg text-white py-2 px-2 rounded-lg transition">
+            <button className="md:mt-4 mt-1 w-auto bg-green-600 hover:bg-green-700 text-xs md:text-lg text-white py-2 px-2 rounded-md transition">
               Buy Now
             </button>
           </div>

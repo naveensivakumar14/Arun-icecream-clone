@@ -3,7 +3,7 @@ import logo from "../assets/images/Logo.png"; // Update path as per your structu
 
 function Footer() {
   return (
-    <footer className="bg-[#DDDDDD] text-black py-10">
+    <footer className="bg-[#dddd] text-black py-10">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
         
         {/* Logo & Brand */}
