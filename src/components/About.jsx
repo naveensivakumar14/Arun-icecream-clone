@@ -10,6 +10,7 @@ function About(){
         <div className="flex justify-center items-center">
             <img className="md:w-3/4" src={aboutBanner} alt="aboutsection" />
         </div>
+ 
 
         <Testimonial/>
         </div>
