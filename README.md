@@ -1,5 +1,7 @@
 # Arun Icecream-clone website
 
+![Arun Icecream clone](\src\assets\images/about-banner.jpg)
+
 React JS
 React Components
 React Routers
