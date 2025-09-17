@@ -1,6 +1,6 @@
 # Arun Icecream-clone website
 
-![Arun Icecream clone](\src\assets\images/about-banner.jpg)
+![Arun Icecream clone](public\banner-icone.jpg)
 
 React JS
 React Components
