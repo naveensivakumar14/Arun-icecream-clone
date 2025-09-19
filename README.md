@@ -1,4 +1,4 @@
-# Arun Icecream-clone website
+# Arun Icecream
 
 ![Arun Icecream clone](https://github.com/naveensivakumar14/Arun-icecream-clone/blob/main/public/banner-icone.jpg)
 
