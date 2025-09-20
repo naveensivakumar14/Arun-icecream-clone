@@ -2,6 +2,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
+//All components
 import Navbar from './components/Navbar';
 import Herotop from './components/Herotop';
 import Slider from './components/Banner';
@@ -11,7 +12,7 @@ import About from './components/About';
 import Footer from './components/Foot';
 
 
-
+//Routers
 import Products from './components/Products';
 import Media from './components/Media';
 import Contact from './components/Contact';
